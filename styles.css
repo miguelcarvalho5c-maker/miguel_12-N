@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Segoe UI,Arial,sans-serif}
+body{background:#0b132b;color:#e0e6ff;line-height:1.6}
+header{background:#1c2541;padding:18px}
+nav ul{display:flex;gap:18px;list-style:none;justify-content:center}
+nav a{color:#e0e6ff;text-decoration:none;font-weight:bold}
+nav a:hover{color:#5bc0be}
+main{max-width:1000px;margin:auto;padding:25px}
+h1,h2{color:#5bc0be;margin-bottom:10px}
+.card{background:#1c2541;padding:18px;border-radius:12px;margin:15px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+img{width:100%;border-radius:12px}
+footer{background:#1c2541;text-align:center;padding:14px;margin-top:25px}
+button{background:#5bc0be;border:none;padding:10px 16px;border-radius:8px;cursor:pointer}
+button:hover{background:#3aafa9}
